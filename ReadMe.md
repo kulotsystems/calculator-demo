@@ -4,7 +4,7 @@ A simple standard calculator.
 ## Pseudocode 
 
 ###  States / Variables
-The following values inside curly braces are the state or variables in the program. For simplicity, the `this` keyword refers to the instance of the program.
+The following values inside curly braces are the states or variables in the program. For simplicity, the `this` keyword refers to the instance of the program.
 ```javascript
     this: {
         temp   : '',  // temporary value
