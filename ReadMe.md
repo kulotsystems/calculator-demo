@@ -231,7 +231,7 @@ Called when `+-` button is pressed.
     }
 ```
 
-#### 6. negPressed
+#### 7. dotPressed
 Called when `.` button is pressed.
 ```javascript
     dotPressed()
