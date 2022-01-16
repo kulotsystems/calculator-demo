@@ -19,8 +19,6 @@ The following values inside curly braces are the state or variables in the progr
 ###  Events
 The program is divided into independent blocks called 'events'.
 
-These are the following:
-
 #### 1. numberPressed
 Called when a numeric button is pressed.
 <table>
