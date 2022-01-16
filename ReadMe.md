@@ -196,7 +196,7 @@ Called when the `arrow-left` button is pressed.
     }
 ```
 
-#### 6. negPressed
+#### 7. negPressed
 Called when `+-` button is pressed.
 ```javascript
     negPressed()
@@ -231,7 +231,7 @@ Called when `+-` button is pressed.
     }
 ```
 
-#### 7. dotPressed
+#### 8. dotPressed
 Called when `.` button is pressed.
 ```javascript
     dotPressed()
