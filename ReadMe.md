@@ -164,7 +164,7 @@ Called when the `C` button is pressed.
 ```
 
 #### 6. backPressed
-Called when the arrow-left button is pressed.
+Called when the `arrow-left` button is pressed.
 ```javascript
     backPressed()
     {
@@ -177,7 +177,7 @@ Called when the arrow-left button is pressed.
 ```
 
 #### 6. negPressed
-Called when +- button is pressed.
+Called when `+-` button is pressed.
 ```javascript
     negPressed()
     {
@@ -212,7 +212,7 @@ Called when +- button is pressed.
 ```
 
 #### 6. negPressed
-Called when dot (.) button is pressed.
+Called when `.` button is pressed.
 ```javascript
     dotPressed()
     {
