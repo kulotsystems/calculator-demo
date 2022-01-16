@@ -252,3 +252,9 @@ Called when `.` button is pressed.
         this.pressed = 'dot';
     }
 ```
+
+## Usage
+<ol>
+    <li>Clone or download this repository.</li>
+    <li>Open <code>index.html</code> in your web browser.</li>
+</ol>
