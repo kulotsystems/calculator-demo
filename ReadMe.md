@@ -92,7 +92,7 @@ Called when an operand button is pressed.
     }
 ```
 
-#### 3. operandPressed
+#### 3. equalPressed
 Called when the equal button is pressed.
 ```javascript
     equalPressed()
