@@ -151,7 +151,7 @@ Called when the `C` button is pressed.
 ```javascript
     clearPressed()
     {
-        // clear the state / variables
+        // clear the states / variables
         this.temp    = '';
         this.operand = '';
         this.value1  = '';
