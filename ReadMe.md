@@ -71,21 +71,41 @@ Called when an operand button is pressed.
 ```javascript
     operandPressed(o)
     {
-        // perform this only if temp, value1, or result is not empty
-        if(this.temp !== '' || this.value1 !== '' || this.result !== '') {
-            // assign o to the operand
-            this.operand = o;
+        if(this.temp !== '' || this.value1 !== '') {
             
-            // if temp is not empty, transfer it to value1
-            if(this.temp !== '') {
-                this.value1 = this.temp;
-                this.temp = '';
+            // if value1 is still empty...
+            if(this.value1 === '') {
+                // assign operand
+                this.operand = o;
+    
+                // transfer temp to value1 if 'equal' was the latest button pressed
+                if(this.pressed !== 'equal')
+                    this.value1 = this.temp;
             }
             
-            // or if result is not empty, transfer it to value1
-            else if(this.result !== '')
-                this.value1 = this.result;
+            // if value1 is not empty...
+            else {
+                // transfer result to value1 if 'equal' was the latest button pressed
+                if(this.pressed === 'equal')
+                    this.value1 = this.result;
+                
+                // handle consecutive operation...
+                else {
+                    this.value2 = this.temp;
+                    this.calculateResult();
+                    this.value1 = this.result;
+                }
+                this.operand = o;
+            }
+            
+            // clear temp
+            this.temp = '';
         }
+    
+        // else if result is not empty, transfer it to value1
+        else if(this.result !== '')
+            this.value1 = this.result;
+    
     
         // record 'operand' as the pressed button
         this.pressed = 'operand';
