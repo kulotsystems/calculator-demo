@@ -31,7 +31,7 @@ Called when a numeric button is pressed.
         </tr>
     </thead>
     <tr>
-        <td><code>n</code></td>
+        <td><b>n</b></td>
         <td>the pressed number</td>
     </tr>
 </table>
@@ -65,7 +65,7 @@ Called when an operand button is pressed.
         </tr>
     </thead>
     <tr>
-        <td><code>o</code></td>
+        <td><b>o</b></td>
         <td>the pressed operand</td>
     </tr>
 </table>
