@@ -270,6 +270,6 @@ Called when `.` button is pressed.
     <li>
         Open <code>index.html</code> in your web browser.
         <br>
-        <small>or access <a href="https://www.kulotsystems.tech/old/random/calculator-demo/" target="_blank">https://www.kulotsystems.tech/old/random/calculator-demo</a>.</small>
+        <small>or visit <a href="https://www.kulotsystems.tech/old/random/calculator-demo/" target="_blank">https://www.kulotsystems.tech/old/random/calculator-demo</a>.</small>
     </li>
 </ol>
