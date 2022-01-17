@@ -19,7 +19,18 @@ The following values inside curly braces are the states or variables in the prog
 ###  Events
 The program is divided into independent blocks called 'events'.
 
-#### 1. numberPressed
+<ol>
+    <li><a href="#numberPressed">numberPressed</a></li>
+    <li><a href="#operandPressed">operandPressed</a></li>
+    <li><a href="#equalPressed">equalPressed</a></li>
+    <li><a href="#calculateResult">calculateResult</a></li>
+    <li><a href="#clearPressed">clearPressed</a></li>
+    <li><a href="#backPressed">backPressed</a></li>
+    <li><a href="#negPressed">negPressed</a></li>
+    <li><a href="#dotPressed">dotPressed</a></li>
+</ol>
+
+#### 1. <a name="numberPressed">numberPressed</a>
 Called when a numeric button is pressed.
 <table>
     <thead>
@@ -53,7 +64,7 @@ Called when a numeric button is pressed.
     }
 ```
 
-#### 2. operandPressed
+#### 2. <a name="operandPressed">operandPressed</a>
 Called when an operand button is pressed.
 <table>
     <thead>
@@ -112,7 +123,7 @@ Called when an operand button is pressed.
     }
 ```
 
-#### 3. equalPressed
+#### 3. <a name="equalPressed">equalPressed</a>
 Called when the equal button is pressed.
 ```javascript
     equalPressed()
@@ -143,7 +154,7 @@ Called when the equal button is pressed.
     }
 ```
 
-#### 4. calculateResult
+#### 4. <a name="calculateResult">calculateResult</a>
 Produces the result of the arithmetic operation.
 ```javascript
     calculateResult()
@@ -166,7 +177,7 @@ Produces the result of the arithmetic operation.
     }
 ```
 
-#### 5. clearPressed
+#### 5. <a name="clearPressed">clearPressed</a>
 Called when the `C` button is pressed.
 ```javascript
     clearPressed()
@@ -183,7 +194,7 @@ Called when the `C` button is pressed.
     }
 ```
 
-#### 6. backPressed
+#### 6. <a name="backPressed">backPressed</a>
 Called when the `arrow-left` button is pressed.
 ```javascript
     backPressed()
@@ -196,7 +207,7 @@ Called when the `arrow-left` button is pressed.
     }
 ```
 
-#### 7. negPressed
+#### 7. <a name="negPressed">negPressed</a>
 Called when `+-` button is pressed.
 ```javascript
     negPressed()
@@ -231,7 +242,7 @@ Called when `+-` button is pressed.
     }
 ```
 
-#### 8. dotPressed
+#### 8. <a name="dotPressed">dotPressed</a>
 Called when `.` button is pressed.
 ```javascript
     dotPressed()
