@@ -267,5 +267,9 @@ Called when `.` button is pressed.
 ## Usage
 <ol>
     <li>Clone or download this repository.</li>
-    <li>Open <code>index.html</code> in your web browser.</li>
+    <li>
+        Open <code>index.html</code> in your web browser.
+        <br>
+        <small>or access <a href="https://www.kulotsystems.tech/old/random/calculator-demo/" target="_blank">https://www.kulotsystems.tech/old/random/calculator-demo</a>.</small>
+    </li>
 </ol>
